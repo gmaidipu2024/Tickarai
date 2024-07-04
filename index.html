@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="darktag">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="main.css">
-  <title>TickerAI</title>
+  <title>ticKerAI</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+
+<body class="bg-white dark:bg-gray-800">
   <!-- header-->
   <header class="container mx-auto">
 
@@ -16,7 +17,7 @@
 
       <div class="flex gap-2 mb-4">
         <img src="images/tickerAI-logo 1.png" alt="" class="">
-        <p class="text-xs md:text-lg">A Mark Cuban Company
+        <p class="text-xs md:text-lg dark:text-white">A Mark Cuban Company
         <br>  AI-based Financial Market News Aggregator</p>
       </div>
 
@@ -25,8 +26,13 @@
           <button class="bg-[#5677AC;] text-white py-3 px-3 rounded">Personalize News </button></a>
         
 
-        <p class="text-3xl bg-[#5677AC26;] rounded-full py-2 px-3">IK</p>
-        <img src="images/Vector.png" alt="">
+        <p class="text-3xl bg-[#5677AC26;] rounded-full py-2 px-3 dark:text-white">IK</p>
+        <button id="darkSwicth">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 dark:stroke-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+          </svg>
+          
+        </button>
       </div>
     </nav>
   </header>
@@ -58,7 +64,7 @@
 <!-- all card section-->
     <div class="md:col-span-9 ml-6 col-span-12 mr-3">
 
-      <div class="flex items-center justify-between border-b border-black md:border-b-[4px] mt-4 mb-5">
+      <div class="flex items-center justify-between border-b border-black md:border-b-[4px] mt-4 mb-5 dark:text-white">
         <h1 class="text-2xl font-bold">All news</h1>
         <div class="flex items-center gap-3">
           <p>Filter by:</p>
@@ -68,7 +74,7 @@
       </div>
 
       <div>
-        <h1 class="text-3xl font-extrabold mb-6 ">Individual Stocks</h1>
+        <h1 class="text-3xl font-extrabold mb-6 dark:text-white ">Individual Stocks</h1>
 
         <!--card 1-->
         <div class=" new">
@@ -81,15 +87,15 @@
               <span class="design">S & P 500</span>
             </div>
   
-            <div>
-              <h2 class="font-bold text-3xl mb-4 text-[#333333;]">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+            <div >
+              <h2 class="font-bold text-3xl mb-4 text-[#333333;] dark:text-white">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
   
-              <p class="text-[#616161;] mb-4 mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+              <p class="text-[#616161;] mb-4 mt-4 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
             </div>
   
             <div class="flex gap-5 mb-5 mt-5">
-              <p>06 September 2022</p>
-              <p class="text-[#616161;] font-bold ">By <span class="text-[#5677AC;] uppercase">Shouvik Nath</span></p>
+              <p class="dark:text-white">06 September 2022</p>
+              <p class="text-[#616161;] font-bold dark:text-white ">By <span class="text-[#5677AC;] uppercase">Shouvik Nath</span></p>
              
             </div>
 
@@ -109,14 +115,14 @@
             </div>
   
             <div>
-              <h2 class="font-bold text-3xl mb-4 text-[#333333;]">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h2>
+              <h2 class="font-bold text-3xl mb-4 text-[#333333;] dark:text-white">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h2>
   
-              <p class="text-[#616161;] mb-4 mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+              <p class="text-[#616161;] mb-4 mt-4 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
             </div>
   
             <div class="flex gap-5 mb-5 mt-5">
-              <p>06 September 2022</p>
-              <p class="text-[#616161;] font-bold ">By <span class="text-[#5677AC;] uppercase">amado</span></p>
+              <p class="dark:text-white">06 September 2022</p>
+              <p class="text-[#616161;] font-bold dark:text-white">By <span class="text-[#5677AC;] uppercase">amado</span></p>
              
             </div>
 
@@ -136,14 +142,14 @@
             </div>
   
             <div>
-              <h2 class="font-bold text-3xl mb-4 text-[#333333;]">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h2>
+              <h2 class="font-bold text-3xl mb-4 text-[#333333;] dark:text-white">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h2>
   
-              <p class="text-[#616161;] mb-4 mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+              <p class="text-[#616161;] mb-4 mt-4 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
             </div>
   
             <div class="flex gap-5 mb-5 mt-5">
-              <p>06 September 2022</p>
-              <p class="text-[#616161;] font-bold ">By <span class="text-[#5677AC;] uppercase">amado</span></p>
+              <p class="dark:text-white">06 September 2022</p>
+              <p class="text-[#616161;] font-bold dark:text-white">By <span class="text-[#5677AC;] uppercase">amado</span></p>
              
             </div>
 
@@ -170,14 +176,14 @@
             </div>
   
             <div>
-              <h2 class="font-bold text-3xl mb-4 text-[#333333;]">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+              <h2 class="font-bold text-3xl mb-4 text-[#333333;] dark:text-white">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
   
-              <p class="text-[#616161;] mb-4 mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+              <p class="text-[#616161;] mb-4 mt-4 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
             </div>
   
             <div class="flex gap-5 mb-5 mt-5">
-              <p>06 September 2022</p>
-              <p class="text-[#616161;] font-bold ">By <span class="text-[#5677AC;] uppercase">Shouvik Nath</span></p>
+              <p class="dark:text-white">06 September 2022</p>
+              <p class="text-[#616161;] font-bold dark:text-white ">By <span class="text-[#5677AC;] uppercase">Shouvik Nath</span></p>
              
             </div>
 
@@ -197,14 +203,14 @@
             </div>
   
             <div>
-              <h2 class="font-bold text-3xl mb-4 text-[#333333;]">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h2>
+              <h2 class="font-bold text-3xl mb-4 text-[#333333;] dark:text-white">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h2>
   
-              <p class="text-[#616161;] mb-4 mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+              <p class="text-[#616161;] mb-4 mt-4 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
             </div>
   
             <div class="flex gap-5 mb-5 mt-5">
-              <p>06 September 2022</p>
-              <p class="text-[#616161;] font-bold ">By <span class="text-[#5677AC;] uppercase">amado</span></p>
+              <p class="dark:text-white">06 September 2022</p>
+              <p class="text-[#616161;] font-bold dark:text-white ">By <span class="text-[#5677AC;] uppercase">amado</span></p>
              
             </div>
 
@@ -215,7 +221,7 @@
       </div>
     <!-- anather card section--> 
       <div>
-        <h1 class="text-3xl font-extrabold mb-6">Stock Market Topics</h1>
+        <h1 class="text-3xl font-extrabold mb-6 dark:text-white">Stock Market Topics</h1>
 
         <!--card 1-->
         <div class="new">
@@ -229,14 +235,14 @@
             </div>
   
             <div>
-              <h2 class="font-bold text-3xl mb-4 text-[#333333;]">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+              <h2 class="font-bold text-3xl mb-4 text-[#333333;] dark:text-white">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
   
-              <p class="text-[#616161;] mb-4 mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+              <p class="text-[#616161;] mb-4 mt-4 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
             </div>
   
-            <div class="flex gap-5 mb-5 mt-5">
+            <div class="flex gap-5 mb-5 mt-5 dark:text-white">
               <p>06 September 2022</p>
-              <p class="text-[#616161;] font-bold ">By <span class="text-[#5677AC;] uppercase">Shouvik Nath</span></p>
+              <p class="text-[#616161;] font-bold dark:text-white ">By <span class="text-[#5677AC;] uppercase">Shouvik Nath</span></p>
              
             </div>
 
@@ -257,7 +263,7 @@
       <h1 class="text-2xl font-bold mb-5 text-xl rounded hover:">Daily Rundowns</h1>
 <!--section 2-->
       <div class=" border border-[#f5f5f5] p-3 mb-5">
-        <div>
+        <div class="dark:text-white">
           <div>
             <h2 class="text-2xl font-semibold mb-5">Earnings:</h2>
           </div>
@@ -269,7 +275,7 @@
           <span class="tag">mfh</span>
         </div>
   <!--section 2-->
-        <div class="mt-5 gap-5">
+        <div class="mt-5 gap-5 dark:text-white">
           <div>
             <h2 class="text-2xl font-semibold mb-5">Movers:</h2>
           </div>
@@ -282,7 +288,7 @@
           <span class="tag">sym</span>
         </div>
   <!--section 3-->
-        <div class="mt-4">
+        <div class="mt-5 gap-5 dark:text-white">
             <div>
               <h2 class="text-3xl font-semibold mb-5">Movers:</h2>
             </div>
@@ -301,17 +307,17 @@
 <!--image gallary-->
     <div>
       <img src="images/Rectangle 182.png" alt="" class="w-full object-fill mb-5">
-      <h2 class="text-center  text-2xl font-medium p-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+      <h2 class="text-center  text-2xl font-medium p-3  dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
     </div>
 
     <div>
       <img src="images/Rectangle 183.png" alt="" class="w-full object-fill mb-5">
-      <h2 class="text-center  text-2xl font-medium p-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+      <h2 class="text-center  text-2xl font-medium p-3  dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
     </div>
 
     <div>
       <img src="images/Rectangle 184.png" alt="" class="w-full object-fill mb-5">
-      <h2 class="text-center  text-2xl font-medium p-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+      <h2 class="text-center  text-2xl font-medium p-3  dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
     </div>
       
   </div>
@@ -319,9 +325,18 @@
 </section>
 
 <!-- Futter Section-->
- <div class=" text-center text-black pb-4 ">
+ <div class=" text-center text-2xl font-semibold text-black pb-4 dark:text-white ">
   All Right Researve ti ticKerAI-2024
  </div>
 
+
+ <script>
+  const darkchanger = document.getElementById("darktag");
+  document.getElementById("darkSwicth").addEventListener("click", function () {
+    darkchanger.classList.toggle("dark");
+    
+  });
+
+ </script>
 </body>
 </html>
